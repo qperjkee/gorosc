@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+window.alert("Узнай какой у тебя будет сегодня день");
+var a = window.prompt("Кто ты по гороскопу?");
+var randommoods = ["хорошем","плохом","унылом","прекрасном"]
+var randomvafels = ["заняться новым делом", "помириться со всеми", "купить себе что-то"]
+var randomvafel = randomvafels[Math.floor(Math.random()*3)]
+var randommood = randommoods[Math.floor(Math.random()*4)]
+var randomgor = "Сегодня " + a + " будет в " + randommood + " настроении, ему стоит " + randomvafel
+document.write(randomgor)
+</script>
+</body>
+</html>
